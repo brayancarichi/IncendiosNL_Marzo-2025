@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>¿Por qué se salieron de control los incendios en NL?</title>
+
+  <!-- 
+    - favicon
+  -->
+  
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;900&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload image
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <h1>
+        <a href="#" class="logo">CenGeo</a>
+      </h1>
+
+      <nav class="navbar container" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Inicio</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#services" class="navbar-link" data-nav-link>Insumos</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#features" class="navbar-link" data-nav-link>Usos del suelo</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#about" class="navbar-link" data-nav-link>Factores</a>
+          </li>
+
+          
+          <li class="navbar-item">
+            <a href="#section support" class="navbar-link" data-nav-link>Contáctanos</a>
+          </li>
+
+          
+
+        </ul>
+      </nav>
+
+     
+      <button class="nav-toggle-btn" aria-label="Toggle menu" data-nav-toggle-btn>
+        <ion-icon name="menu-outline" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" class="close-icon"></ion-icon>
+      </button>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" id="home">
+        <div class="container">
+
+          <figure class="hero-banner">
+            <img src="./assets/images/fire-6706669_1920.jpg" width="904" height="843" loading="lazy" alt="hero banner"
+              class="w-100">
+          </figure>
+
+          <div class="hero-content">
+
+            <h2 class="h1 hero-title">Análisis de los incendios en Monterrey desde la perspectiva de la ciencia geoespacial.</h2>
+
+            <p class="section-text">
+              El siguiente articulo fue elaborado con la intención de buscar las causas de porque están ocurriendo tantos incendios en Monterrey. Esto analizado desde una perspectiva espacial.
+            </p>
+
+            <form action="" class="hero-form">
+              <input type="text" name="email_address" placeholder="" aria-label="Enter Your Email"
+                >
+
+              <button type="submit" class="btn btn-primary">Accede a la plataforma interactiva</button>
+            </form>
+
+            <ul class="hero-list">
+
+              
+
+              
+            </ul>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" id="services">
+        <div class="container">
+
+          <h2 class="h2 section-title">¿Qué elementos tomamos en cuenta para hacer el análisis?</h2>
+
+          <p class="section-text">
+            Se utilizó la teledetección la cual es la ciencia que se encarga de obtener, almacenar y procesar información satelital. Esto nos permite hacer análisis a pequeña y gran escala de manera extremadamente rápida. Además, se utilizaron redes neuronales para la detección y contabilización de construcciones en la zona urbana.  
+          </p>
+
+          <ul class="service-list">
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/NASA_FIRMS_2024-05-16_6days_Vysotsk.gif" width="728" height="344" loading="lazy" alt="support"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">NASA FIRMS</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Es una plataforma que nos dice casi en tiempo real, donde se encuentran puntos de calor. Se utilizó para saber exactamente donde hay un incendio forestal y en base a esas coordenadas, obtener puntos de control. 
+                  </p>
+
+                  <a href="https://firms.modaps.eosdis.nasa.gov" class="btn-link">
+                    <span class="span">Conocer más</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/landuse.gif" width="728" height="344" loading="lazy" alt="Engagement"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Usos del suelo de ESRI®</a>
+                  </h3>
+
+                  <p class="card-text">
+                    ESRI® cuenta con usos del suelo desde el año 2017 hasta el 2023. Estos productos fueron utilizados para identificar el cambio en los usos del suelo en la región de Monterrey y sus alrededores.
+                  </p>
+
+                  <a href="https://livingatlas.arcgis.com/landcover/" class="btn-link">
+                    <span class="span">Conocer más</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/ImageCollection_video_global_temp_flicker.gif" width="728" height="344" loading="lazy" alt="Marketing"
+                    class="w-100">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Variables climáticas</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Para la obtención de variables climáticas como  la velocidad del viento o la temperatura, se utilizó El Sistema global de asimilación de datos de la Tierra de la NASA el cual es de libre acceso y mediante operaciones matemáticas se obtuvo toda la información de este sistema.
+                  </p>
+
+                  <a href="https://disc.gsfc.nasa.gov/datasets/GLDAS_NOAH025_3H_2.1/summary" class="btn-link">
+                    <span class="span">Conocer más</span>
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURES
+      -->
+
+      <section class="section features" id="features">
+        <div class="container">
+
+          <div class="features-content">
+
+            <h2 class="h2 section-title">Cambios en la dinámica de usos del suelo</h2>
+
+            <p class="section-text">
+              En un periodo de 6 años (2017-2023) hubo una dinámica bastante particular y alarmante. Los pastizales aumentaron considerablemente a costa de la perdida de bosques. Esto favorece la aparición y propagación de incendios forestales. 
+            </p>
+
+            <ul class="features-list">
+
+              <li class="features-item">
+                <img src="./assets/images/plant-garden-svgrepo-com.svg" width="26" height="26" loading="lazy" aria-hidden="true"
+                  class="item-icon">
+
+                <h3 class="item-title">Aumentaron 204,165 ha y se redujeron 83,444 ha de pastizal.</h3>
+              </li>
+
+              <li class="features-item">
+                <img src="./assets/images/house-svgrepo-com.svg" width="26" height="26" loading="lazy" aria-hidden="true"
+                  class="item-icon">
+
+                <h3 class="item-title">Las áreas urbanas aumentaron 31,506 ha</h3>
+              </li>
+
+              <li class="features-item">
+                <img src="./assets/images/tractor-svgrepo-com.svg" width="26" height="26" loading="lazy" aria-hidden="true"
+                  class="item-icon">
+
+                <h3 class="item-title">La agricultura aumentó 32,757 ha y perdió 43,886 ha</h3>
+              </li>
+
+              <li class="features-item">
+                <img src="./assets/images/tree-evergreen-svgrepo-com.svg" width="26" height="26" loading="lazy" aria-hidden="true"
+                  class="item-icon">
+
+                <h3 class="item-title">El bosque aumentó 47,502 pero perdió 176,845 ha</h3>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <div class="banner-wrapper">
+
+            <figure class="features-banner one">
+              <img src="./assets/images/Cmabio.png" width="600" height="500" loading="lazy"
+                alt="features image" class="w-100">
+            </figure>
+
+            
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <section class="section app">
+        <div class="container">
+
+          <div class="app-content">
+
+            <h2 class="h2 section-title">Mapas de cambio en el uso del suelo</h2>
+
+            <p class="section-text">
+              En el mapa se puede observar claramente como los pastizales (color crema) han ganado terreno en tan solo 6 años. Pero han ganado terreno principalmente a costa de los bosques (zona verde).               
+            </p>
+
+            <div class="btn-group">
+
+              <a href="#" class="btn btn-primary">
+                <img src="./assets/images/play-store.svg" width="30" height="31" loading="lazy" alt="play store icon">
+
+                <span class="span">
+                  Descargar información             
+                  <strong class="strong">Google Drive</strong>
+                </span>
+              </a>
+
+              
+
+            </div>
+
+          </div>
+
+          <figure class="app-banner">
+            <img src="./assets/images/Usos del suelo.png" width="748" height="536" loading="lazy" alt="app screenshot"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+      <section class="section app">
+        <div class="container">
+
+          <div class="app-content">
+
+            <h2 class="h2 section-title">Densidad de los puntos de calor entre el 3 y 7 de marzo de 2025</h2>
+
+            <p class="section-text">
+              En la imagen se muestra el comportamiento de los puntos de calor registrados entre el 3 y 7 de marzo de 2025. En la región Noroeste es donde hubo una mayor actividad de incendios. Y es precisamente donde hubo mayor temperatura, velocidades de aire altas y una baja humedad relativa.              
+            </p>
+
+            <div class="btn-group">
+
+              
+
+              
+
+            </div>
+
+          </div>
+
+          <figure class="app-banner">
+            <img src="./assets/images/Densidad.png" width="748" height="536" loading="lazy" alt="app screenshot"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+      <section class="section app">
+        <div class="container">
+
+          <div class="app-content">
+
+            <h2 class="h2 section-title">Construcciones que estuvieron en peligro durante los incendios</h2>
+
+            <p class="section-text">
+              Mediante Redes Neuronales e imágenes satelitales, se obtuvieron todas las construcciones que hay en Monterrey. De esta manera se contabilizaron 791,917 construcciones. Sin embargo, para saber cuántas construcciones estuvieron en peligro por los incendios, se realizó un área de influencia de 100 metros a partir de los puntos de calor detectados. Resultando así que 130 construcciones estuvieron en peligro durante los incendios.              
+            </p>
+
+            <div class="btn-group">
+
+              
+
+              
+
+            </div>
+
+          </div>
+
+          <figure class="app-banner">
+            <img src="./assets/images/Construcciones.png" width="748" height="536" loading="lazy" alt="app screenshot"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about">
+        <div class="container">
+
+          <h2 class="h2 section-title">¿Qué factores encontramos nosotros que pudieron influir en la propagación de incendios</h2>
+
+          <p class="section-text">
+            Encontramos 4 factores que explican la propagación descontrolada de los incendios:
+          </p>
+
+          <ul class="about-list">
+
+            <li>
+              <div class="about-card about-card-1">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/plant-pot-svgrepo-com.svg" width="94" height="94" loading="lazy"
+                    alt="Automated Ticket Routing">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">El aumento de los pastizales</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Junto con el aumento de los pastizales también lo hace el riesgo de incendio. Es bien sabido que, al ser un tipo de vegetación diferente, el fuego inicia y se propaga mucho mas fácil en pastizales que en otros usos del suelo. 
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-2">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/hot-springs-svgrepo-com.svg" width="94" height="94" loading="lazy"
+                    alt="Workflow Automation">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Las altas temperaturas</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Favorecen en el inicio de los incendios, principalmente si hay basura como vidrios por ejemplo, ya que actúan como una especie de lupa que inicia el fuego. Además, al tener temperaturas altas el fuego se propaga mucho mas fácil. Superior a 30 °C favorece a los incendios.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-3">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/wind-svgrepo-com.svg" width="94" height="94" loading="lazy"
+                    alt="Automated Callback">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Velocidad alta del viento      </a>
+                  </h3>
+
+                  <p class="card-text">
+                    Una velocidad alta del viento favorece en la propagación de los incendios forestales. Además, este ayuda a acelerar el secado de los combustibles por lo que se expande mucho más rápido el fuego. Superior a 35 km/h ya es un factor que influye en el inicio y propagación de un incendio forestal.
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="about-card about-card-4">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/water-drop-svgrepo-com.svg" width="94" height="94" loading="lazy"
+                    alt="Customer Feedback Surveys">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Humedad relativa</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Al haber baja humedad relativa (inferior al 30%) el ambiente es muy seco y propicia la aparición de incendios forestales. Además, ya que existe algún incendio, al no haber humedad este se propaga de mucho mejor manera.          
+                  </p>
+
+                  <a href="#" class="btn-link">
+                    
+
+                    <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+                  </a>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <p class="section-text">
+            Siguiendo estos 4 factores, se desarrolló una aplicación interactiva que predice las zonas de Nuevo León que tienen mayor riesgo de tener incendio forestal.           
+            <a href="#" class="btn-link">
+              <span class="span">Acceder a la plataforma interactiva            </span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </p>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #STATS
+      -->
+
+     
+
+
+
+
+
+      <!-- 
+        - #APP
+      -->
+
+      
+
+
+
+
+
+      <!-- 
+        - #SUPPORT
+      -->
+
+      <section class="section support">
+        <div class="container">
+
+          <div class="support-content">
+            <h2 class="h2 section-title">¡Contáctanos!!!!</h2>
+            <a href="https://www.linkedin.com/in/brayan-murillo-guti%C3%A9rrez-76a2a7281/?originalSubdomain=mx" class="btn-link" target="_blank">
+              <span class="span">Abrir perfil</span>
+
+              <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+            </a>
+            <p class="section-text">
+              Si tienes algún comentario, duda o sugerencia, contáctanos a través de LinkedIn.  
+            </p>
+          </div>
+
+          
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-label="Back to top" data-back-top-btn>
+    <ion-icon name="chevron-up"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
